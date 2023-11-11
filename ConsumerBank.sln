@@ -1,0 +1,49 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33110.190
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConsumerBankApi", "ConsumerBankApi\ConsumerBankApi.csproj", "{363F97B1-261F-4B63-8CBC-B0B8192CEF12}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConsumerBank.Services", "ConsumerBank.Services\ConsumerBank.Services.csproj", "{8C885AE6-790C-4CB9-8DFA-E88841030B44}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConsumerBank.Services.UnitTests", "ConsumerBank.Services.UnitTests\ConsumerBank.Services.UnitTests.csproj", "{13F86DC5-5F0F-4FBA-A071-A559502EFABE}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConsumerBankApi.RegressionTests", "ConsumerBankApi.RegressionTests\ConsumerBankApi.RegressionTests.csproj", "{303CD3B7-C1AF-49A3-BFB8-A84703334A41}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConsumerBank.Services.IntegrationTests", "ConsumerBank.Services.IntegrationTests\ConsumerBank.Services.IntegrationTests.csproj", "{C98D87EC-D654-44BB-8597-2B0AE014F5AB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{363F97B1-261F-4B63-8CBC-B0B8192CEF12}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{363F97B1-261F-4B63-8CBC-B0B8192CEF12}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{363F97B1-261F-4B63-8CBC-B0B8192CEF12}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{363F97B1-261F-4B63-8CBC-B0B8192CEF12}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8C885AE6-790C-4CB9-8DFA-E88841030B44}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8C885AE6-790C-4CB9-8DFA-E88841030B44}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8C885AE6-790C-4CB9-8DFA-E88841030B44}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8C885AE6-790C-4CB9-8DFA-E88841030B44}.Release|Any CPU.Build.0 = Release|Any CPU
+		{13F86DC5-5F0F-4FBA-A071-A559502EFABE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{13F86DC5-5F0F-4FBA-A071-A559502EFABE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{13F86DC5-5F0F-4FBA-A071-A559502EFABE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{13F86DC5-5F0F-4FBA-A071-A559502EFABE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{303CD3B7-C1AF-49A3-BFB8-A84703334A41}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{303CD3B7-C1AF-49A3-BFB8-A84703334A41}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{303CD3B7-C1AF-49A3-BFB8-A84703334A41}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{303CD3B7-C1AF-49A3-BFB8-A84703334A41}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C98D87EC-D654-44BB-8597-2B0AE014F5AB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C98D87EC-D654-44BB-8597-2B0AE014F5AB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C98D87EC-D654-44BB-8597-2B0AE014F5AB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C98D87EC-D654-44BB-8597-2B0AE014F5AB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1116FD50-237E-481F-A629-12BC025E663D}
+	EndGlobalSection
+EndGlobal
